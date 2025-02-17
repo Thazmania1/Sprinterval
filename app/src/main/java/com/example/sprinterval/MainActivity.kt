@@ -259,7 +259,7 @@ fun TimeRegistryScreen(navController: NavController, modifier: Modifier = Modifi
 }
 
 // Makes screen navigation less error prone.
-// ".name" to convert the enum to a string.
+// use "[Enum].name" to convert the enum to a string.
 enum class ScreenLink{
     MainScreenLink,
     RunScreenLink,
